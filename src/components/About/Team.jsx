@@ -13,7 +13,7 @@ export default function Team() {
             <div>
               <div>
                 <img
-                  src="/public/image/orang_1.jpg"
+                  src="/image/orang_1.jpg"
                   alt="orang_1"
                   className="rounded-full h-[250px] md:h-[300px]"
                 />
@@ -29,7 +29,7 @@ export default function Team() {
             <div>
               <div>
                 <img
-                  src="/public/image/orang_2.jpg"
+                  src="/image/orang_2.jpg"
                   alt="orang_1"
                   className="rounded-full h-[250px] md:h-[300px]"
                 />
@@ -45,7 +45,7 @@ export default function Team() {
             <div>
               <div className="grid place-content-center">
                 <img
-                  src="/public/image/orang_3.jpg"
+                  src="/image/orang_3.jpg"
                   alt="orang_1"
                   className="rounded-full h-[250px] md:h-[300px]"
                 />
