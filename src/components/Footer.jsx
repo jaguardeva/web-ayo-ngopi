@@ -33,15 +33,15 @@ export default function Footer() {
             <ul className="flex md:flex-row flex-col md:gap-0 gap-4 justify-center mt-0 md:mt-12 w-full">
               {MENU_LIST.map((menu, index) => {
                 return (
-                  <Link to={index}>
-                    <a
-                      href={menu.path}
+                  <div key={index}>
+                    <Link
+                      to={menu.path}
                       className="w-full text-[16px] md:text-xl py-3 px-5 ml-0 md:ml-4 cursor-pointer font-normal ease-in-out duration-150 hover:text-white
                       "
                     >
                       {menu.name}
-                    </a>
-                  </Link>
+                    </Link>
+                  </div>
                 );
               })}
             </ul>
