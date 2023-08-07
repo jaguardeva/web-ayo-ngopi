@@ -21,10 +21,11 @@ export default function Hero() {
               repudiandae velit mollitia eveniet modi debitis aperiam? Dolor
               pariatur nulla architecto?
             </p>
-            <Link to="/menu">
-              <button className=" text-[16px] md:text-[22px] py-3 md:py-4 px-5 md:px-8 font-medium rounded-lg shadow-lg bg-[#EAC696]  text-[#65451f] hover:bg-opacity-80 uppercase">
-                Our Menu
-              </button>
+            <Link
+              to="/menu"
+              className=" text-[16px] md:text-[22px] w-[150px] md:w-[200px] text-center py-3 md:py-4 px-5 md:px-8 font-medium rounded-lg shadow-lg bg-[#EAC696]  text-[#65451f] hover:bg-opacity-80 uppercase"
+            >
+              Our Menu
             </Link>
           </div>
         </div>
