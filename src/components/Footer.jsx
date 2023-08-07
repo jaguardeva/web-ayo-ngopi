@@ -34,13 +34,13 @@ export default function Footer() {
               {MENU_LIST.map((menu, index) => {
                 return (
                   <li key={index}>
-                    <Link
-                      to={menu.path}
+                    <a
+                      href={menu.path}
                       className="w-full text-[16px] md:text-xl py-3 px-5 ml-0 md:ml-4 cursor-pointer font-normal ease-in-out duration-150 hover:text-white
                       "
                     >
                       {menu.name}
-                    </Link>
+                    </a>
                   </li>
                 );
               })}

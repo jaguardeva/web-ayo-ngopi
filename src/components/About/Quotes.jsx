@@ -4,9 +4,9 @@ export default function Quotes() {
   return (
     <div>
       <section className="max-w-[1240px] h-[calc(100vh-96px)] flex justify-center items-center mx-auto p-4 text-white">
-        <div className="py-10 md:py-32 text-center flex flex-col gap-5">
+        <div className="py-15 md:py-32 text-center flex flex-col gap-5">
           <h1 className="font-[#EAC696] text-[30px] md:text-[60px] font-bold  uppercase">
-            "Temukan Inspirasi Mu Dari Secangkir Kopi"
+            "Temukan Inspirasi Mu Dalam Secangkir Kopi"
           </h1>
           <p className="text-[14px] md:text-xl">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit atque
