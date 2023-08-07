@@ -22,7 +22,7 @@ export default function Hero() {
               pariatur nulla architecto?
             </p>
             <Link to="/menu">
-              <button className=" text-[16px] md:text-[22px] py-3 md:py-4 px-5 md:px-8 font-normal rounded-lg shadow-lg bg-[#EAC696]  text-[#65451f] hover:bg-opacity-80 uppercase">
+              <button className=" text-[16px] md:text-[22px] py-3 md:py-4 px-5 md:px-8 font-medium rounded-lg shadow-lg bg-[#EAC696]  text-[#65451f] hover:bg-opacity-80 uppercase">
                 Our Menu
               </button>
             </Link>

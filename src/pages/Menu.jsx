@@ -1,9 +1,10 @@
 import React from "react";
+import Card from "../components/Menu/Card";
 
 export default function Menu() {
   return (
     <div>
-      <h1>Menu Page</h1>
+      <Card />
     </div>
   );
 }
